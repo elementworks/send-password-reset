@@ -16,15 +16,15 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require /send-password-reset
+        composer require elementworks/send-password-reset
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Send Password Reset.
 
 ## Send Password Reset
 
-This plugin adds a Send password option to the user element index action menu to enable sending password reset emails to multiple users.
+This plugin adds a `Send Password Reset` option to the user element index action menu to enable sending password reset emails to multiple users.
 
-Admin users can always see the Send password action menu item. To allow other users to use it too, make sure you enable the custom Send Password Reset Action permission for them. This can be done at a user group or individual user level in exactly the same way as native Craft permissions.
+Admin users can always see the `Send Password Reset` action menu item. To allow other users to use it too, make sure you enable the custom Send Password Reset Action permission for them. This can be done at a user group or individual user level in exactly the same way as native Craft permissions.
 
 ## Send Password Reset Roadmap
 
