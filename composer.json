@@ -11,8 +11,8 @@
         "send password reset"
     ],
     "support": {
-        "docs": "",
-        "issues": ""
+        "docs": "https://github.com/elementworks/send-password-reset/blob/main/README.md",
+        "issues": "https://github.com/elementworks/send-password-reset/issues"
     },
     "license": "MIT",
     "authors": [
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "^3.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -34,7 +34,10 @@
         "handle": "send-password-reset",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "",
+        "developer": "Element Works Ltd",
+        "developerUrl": "https://elementworks.co.uk",
+        "documentationUrl": "https://github.com/elementworks/send-password-reset/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/elementworks/send-password-reset/master/CHANGELOG.md",
         "class": "elementworks\\sendpasswordreset\\SendPasswordReset"
     }
 }
