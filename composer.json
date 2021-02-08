@@ -1,0 +1,40 @@
+{
+    "name": "elementworks/send-password-reset",
+    "description": "Add send password reset email action to users element index page action menu",
+    "type": "craft-plugin",
+    "version": "1.0.2",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "send password reset"
+    ],
+    "support": {
+        "docs": "",
+        "issues": ""
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Rowling",
+            "homepage": "https://springworks.co.uk"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "elementworks\\sendpasswordreset\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Send Password Reset",
+        "handle": "send-password-reset",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "",
+        "class": "elementworks\\sendpasswordreset\\SendPasswordReset"
+    }
+}
