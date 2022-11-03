@@ -50,7 +50,7 @@ class SendPasswordReset extends Plugin
      *
      * @var SendPasswordReset
      */
-    public static $plugin;
+    public static SendPasswordReset $plugin;
 
     // Public Properties
     // =========================================================================
@@ -60,7 +60,7 @@ class SendPasswordReset extends Plugin
      *
      * @var string
      */
-    public $schemaVersion = '1.0.0';
+    public string $schemaVersion = '1.0.0';
 
     // Public Methods
     // =========================================================================
@@ -76,7 +76,7 @@ class SendPasswordReset extends Plugin
      * you do not need to load it in your init() method.
      *
      */
-    public function init()
+    public function init(): void
     {
         parent::init();
         self::$plugin = $this;
