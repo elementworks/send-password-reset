@@ -36,7 +36,7 @@ class SendPasswordReset extends ElementAction
     /**
      * @inheritdoc
      */
-    public function getTriggerHtml()
+    public function getTriggerHtml(): ?string
     {
         $type = Json::encode(static::class);
         $userId = Json::encode(Craft::$app->getUser()->getIdentity()->id);
