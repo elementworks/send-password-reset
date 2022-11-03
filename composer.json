@@ -2,7 +2,7 @@
     "name": "elementworks/send-password-reset",
     "description": "Add send password reset email action to users element index page action menu",
     "type": "craft-plugin",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "keywords": [
         "craft",
         "cms",
