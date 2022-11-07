@@ -88,7 +88,7 @@ class SendPasswordReset extends Plugin
         // Add to user action menu
         Event::on(User::class, Element::EVENT_REGISTER_ACTIONS, function(RegisterElementActionsEvent $event) {
 
-            if (Craft::$app->user->checkPermission('sendPasswordReset')) {
+            if (Craft::$app->user->checkPermission('sendPasswordReset-sendPasswordReset')) {
                 $event->actions[] = new SendPasswordResetAction();
             }
         });
