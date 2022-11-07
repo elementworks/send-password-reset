@@ -100,7 +100,9 @@ class SendPasswordReset extends Plugin
             function(RegisterUserPermissionsEvent $event) {
                 $event->permissions[] = [
                     'heading' => 'Send Password Reset',
-                    'permissions' => 'Access Send Password Reset from User Index Action Menu',
+                    'permissions' => [
+                        'sendPasswordReset-sendPasswordReset' => ['label' => 'Access Send Password Reset from User Index Action Menu'],
+                    ],
                 ];
             }
         );
